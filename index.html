@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioBiz India</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- custom CSS file -->
+    <style>
+        /* Hero Section with Background Video */
+        .hero {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .hero video {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .hero .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            z-index: 2;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .hero p {
+            font-size: 1.25rem;
+        }
+        .main-content {
+            padding: 60px 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .main-content .text-content {
+            width: 65%;
+            padding: 0 20px;
+        }
+        .main-content .text-content h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .main-content .text-content p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        .updates {
+            width: 30%;
+            background-color: #3CB371;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+        .updates h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        .updates ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .updates ul li {
+            margin-bottom: 10px;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 40px 0;
+        }
+        .footer p {
+            text-align: center;
+        }
+        img{
+            height:5rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="image.png"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Opportunities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">BioBiz Consulting</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Innovation Insights</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section with Background Video -->
+<section class="hero">
+    <video autoplay muted loop>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+
+<!-- Main Content Section -->
+<section class="main-content">
+    <div class="text-content">
+        <h2>At BioBiz, we are keen to capitalize on India’s rich biodiversity and the availability of large amounts of biomass residues to develop a sustainable bio-economy and attractive business opportunities for diverse stakeholders – farmers, rural stakeholders, end-use industries, entrepreneurs/startups, and financial investors.</h2>
+        
+        <p>As part of a leading climate tech consulting firm, we will provide critical assistance with market intelligence, data-driven analyses, professional networking, and opportunities for relevant stakeholders to get effective visibility.</p>
+        
+        <h3>Main Sections</h3>
+        <ul>
+            <li><strong>Opportunities</strong></li>
+            <li><strong>Consulting</strong></li>
+            <li><strong>Insights</strong></li>
+            <li><strong>Innovation Insights</strong></li>
+            <li><strong>Biomass Residue Intelligence</strong></li>
+        </ul>
+    </div>
+
+    <!-- India Updates Sidebar -->
+    <div class="updates">
+        <h3>India Updates</h3>
+        <ul>
+            <li>Biofuel production from Seaweed Biomass: HPCL partners with Sea6 Energy</li>
+            <li>Green Hydrogen Plant in Baddi: Oil India and Himachal Pradesh Power Corporation partner</li>
+            <li>Bio-CNG Plants in 2 Cow Shelters by Greater Noida Authority</li>
+            <li>Biogas Plant to Be Revived by Faridabad Municipal Corporation</li>
+            <li>Straw-Based Biogas Plant Commercialization</li>
+        </ul>
+        <a href="#" class="btn btn-light">View All</a>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        
+        <p>&copy; 2024 BioBiz. All Rights Reserved.</p>
+        <p>BioBiz is a division of Energy Alternatives India (EAI)</p>
+    </div>
+</footer>
+
+<!-- Bootstrap 5 JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
